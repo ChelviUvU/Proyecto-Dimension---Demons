@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Espinas
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":15.48888,"y":-53.99216},"zoom":1.0,"elements":[{"argumentCount":0,"defaultValues":{"name":{"$content":"Muerte","$type":"System.String"},"target":null},"position":{"x":114.0,"y":-195.0},"guid":"67b1cb46-2d36-4aa7-afec-3d28d704aa1c","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"9"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"Tag":{"$content":"Player","$type":"System.String"}},"position":{"x":-226.0,"y":-185.0},"guid":"1c449725-9532-4db7-9226-0d49b4c7bf5a","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"11"},{"sourceUnit":{"$ref":"11"},"sourceKey":"Objetivo","destinationUnit":{"$ref":"9"},"destinationKey":"enter","guid":"1e2e0975-f8b2-435d-851b-7e948fa7e51f","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"Objeto","destinationUnit":{"$ref":"9"},"destinationKey":"target","guid":"d4451997-b7dc-4355-bfdd-72017f4edf83","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 1f6fc254adb362d4aabde6af4cf6a93b, type: 2}
